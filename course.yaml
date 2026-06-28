@@ -1,4 +1,4 @@
-vars_files:
+
   course: "devops"
   trainer: "siva"
   duration: "14hrs"
