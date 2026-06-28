@@ -1,0 +1,32 @@
+- name: name is "sundar"
+  dob: "18-05-1999"
+  mobile: "123462888"
+  addresses:
+  - type: perm
+    street: 109
+    apartment: "shamkar apartment"
+    city: "chennai"
+
+  - type: curr
+    street: 103
+    apartment: "omkar apartment"
+    city: "chennai"
+
+
+- name: "sivakumar reddy m"
+  dob: "1990-01-01"
+  mobile: "1234567890"
+  addresses:
+  - type: perm
+    street: 101
+    apartmentName: "Balaji Apartments"
+    city: "HYD"
+
+  - type: current
+    street: 101
+    apartmentName: "Balaji Apartments"
+    city: "HYD"
+
+
+
+
