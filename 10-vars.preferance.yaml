@@ -1,15 +1,15 @@
 -name: name
  hosts: localhost
  connection: local
- vars:
+  vars:
    name: "sundar"
- vars_file:
+  vars_file:
    name: "suman"
- vars_prompt:
-   name: "sukesh"
- tasks:
+  vars_prompt:
+   name: "sukesh"   
+tasks:
   - name: print
-     vars:
-       name: "ramesh"
-      debug:
-        msg: {{ name }}
+   vars:
+     name: "ramesh"
+    debug:
+      msg: "{{ name }}"
