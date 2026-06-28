@@ -1,6 +1,6 @@
--name: ping server
+- name: demo on debug
  hosts: frontend
  tasks:
-  -name: ping the server
+  - name: hello world
    debug:
      msg: "hello ansible!"
