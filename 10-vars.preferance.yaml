@@ -3,10 +3,12 @@
  connection: local
   vars:
    name: "sundar"
-  vars_file:
-   name: "suman"
+  vars_files:
+   - course.yaml
   vars_prompt:
-   name: "sukesh"   
+   - name: name
+     prompt: please entered
+     private: false  
 tasks:
 - name: print
   vars:
