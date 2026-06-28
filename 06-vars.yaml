@@ -5,7 +5,5 @@
    - course.yaml
   tasks:
    - name: demo on variables
-     vars:
-      course: "devsecops with aiops"
      debug:
        msg: "hi i am learning {{ course }},trainer is {{ trainer }}, duration is {{ duration }}"
