@@ -1,5 +1,5 @@
--name:ping server
- hosts:frontend
+-name: ping server
+ hosts: frontend
  tasks:
-  -name:ping the server
-   ping:"hello ansible!"
+  -name: ping the server
+   ping: "hello ansible!"
