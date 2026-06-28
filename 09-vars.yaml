@@ -1,6 +1,6 @@
 - name: demo from command login_user
-  hosts:localhost
-  connection:local
+  hosts: localhost
+  connection: local
   tasks:
   - name: print name
     debug:
