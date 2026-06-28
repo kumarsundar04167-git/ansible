@@ -11,7 +11,7 @@
      private: false  
   tasks:
   - name: print
-    vars:
-     name: "ramesh"
+    # vars:
+    #  name: "ramesh"
     debug:
      msg: "{{ name }}"
