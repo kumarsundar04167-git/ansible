@@ -4,4 +4,4 @@
   tasks:
    - name: demo on variables
      debug:
-       msg: "hi i am learning {{ course }},trainer is {{ trainer }}, duration is {{ duration }}, cammon key {{ cammon_key }}"
+       msg: "hi i am learning {{ course }},trainer is {{ trainer }}, duration is {{ duration }}, cammon key {{ common_key }}"
