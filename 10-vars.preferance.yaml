@@ -9,9 +9,9 @@
    - name: name
      prompt: please entered
      private: false  
- tasks:
- - name: print
-   vars:
-    name: "ramesh"
-   debug:
-    msg: "{{ name }}"
+  tasks:
+  - name: print
+    vars:
+     name: "ramesh"
+    debug:
+     msg: "{{ name }}"
