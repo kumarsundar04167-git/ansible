@@ -1,0 +1,10 @@
+- name: check number of classes
+  hosts: localhost
+  connections: local
+  vars:
+    live sessions: 4
+  tasks:
+    - name: is number of classes
+      debug:
+        msg: "yes, ansible is more than 5 classes"
+  when: live sessions > 5 

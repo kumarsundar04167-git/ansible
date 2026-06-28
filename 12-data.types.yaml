@@ -1,0 +1,22 @@
+- name: print informstion
+  hosts: localhost
+  connection: local
+  vars:
+    course: "devsecops with aiops"   #string
+    topics:
+     - linux
+     - shell
+     - ansible_facts
+    is_it_live_sessions: true  #boolean
+    duration in hours: 150   #int
+    more details: #map
+      months: 5
+      trainer: "siva kumar"
+  tasks:
+   debug:
+    msg: |
+     name: {{ course }}
+     topics: {{ topics }}
+     is live sessions: {{ is_it_live_sessions }}
+     duration: {{ duration in hours }}
+     more details: {{ more details }}  
