@@ -8,8 +8,8 @@
   vars_prompt:
    name: "sukesh"   
 tasks:
-  - name: print
-   vars:
-     name: "ramesh"
-    debug:
-      msg: "{{ name }}"
+- name: print
+  vars:
+    name: "ramesh"
+  debug:
+    msg: "{{ name }}"
