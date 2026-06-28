@@ -1,0 +1,5 @@
+vars_files:
+  course: "devops"
+  trainer: "siva"
+  duration: "14hrs"
+  full_name: "siva from vars_file"
