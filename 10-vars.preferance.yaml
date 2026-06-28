@@ -1,6 +1,6 @@
--name: name
- hosts: localhost
- connection: local
+- name: name
+  hosts: localhost
+  connection: local
   vars:
    name: "sundar"
   vars_files:
@@ -9,9 +9,9 @@
    - name: name
      prompt: please entered
      private: false  
-tasks:
-- name: print
-  vars:
+ tasks:
+ - name: print
+   vars:
     name: "ramesh"
-  debug:
+   debug:
     msg: "{{ name }}"
