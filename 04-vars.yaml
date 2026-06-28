@@ -1,0 +1,10 @@
+- name: variables
+  host: 44.222.207.151
+  vars:
+    course: "devops"
+    trainer: "siva"
+    duration: "14hrs"
+  tasks:
+   - name:
+      debug:
+        msg: hi i am learning {{ course }},trainer is {{ trainer}}, duration is {{ duration }}
