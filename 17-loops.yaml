@@ -1,5 +1,5 @@
 - name: install package
-  hosts: frontend
+  hosts: local
   become: yes
   tasks:
   - name: install package
