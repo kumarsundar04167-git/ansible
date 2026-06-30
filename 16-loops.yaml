@@ -1,4 +1,4 @@
-- name: loops
+- name: demo on loops
   hosts: local
   connections: local
   tasks:
