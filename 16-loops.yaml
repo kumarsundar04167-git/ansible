@@ -1,0 +1,11 @@
+- name: loops
+  hosts: localhost
+  connections: local
+  tasks:
+   debug:
+     msg: "hi {{ item }}"
+
+   loop:
+     - ramesh
+     - suresh
+     - sundar
