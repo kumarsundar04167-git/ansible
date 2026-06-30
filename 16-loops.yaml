@@ -1,11 +1,12 @@
 - name: loops
-  hosts: localhost
+  hosts: local
   connections: local
   tasks:
-   debug:
+  - name: print name
+    debug:
      msg: "hi {{ item }}"
 
-   loop:
+    loop:
      - ramesh
      - suresh
      - sundar
